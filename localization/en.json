@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "title": "We Opsy",
+    "defaultTitle": "We Opsy - Multi-Currency Accounts & International Transfers",
+    "description": "Open multi-currency accounts for personal or business use, send and receive money globally, and manage your finances with ease. Join WeOpsy today!",
+    "keywords": "WeOpsy, multi-currency accounts, online payments, international transfers, currency exchange, online banking, business banking, fintech, IBAN account"
+  },
+  "navigation": {
+    "personal": "Personal",
+    "business": "Business",
+    "login": "Log in to WeOpsy",
+    "getApp": "Get the app",
+    "businessInfo": "Opsy is regulated by the Financial Conduct Authority as an Authorised Payment Institution since 15.06.2020, Firm Reference 917823, Company number 10063965, registered at Baldock Industrial Estate London Road, Office 10, AJS House, Units 11-12, Baldock, England, SG7 6NG, incorporated on 15.03.2016.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookie": "Cookies",
+    "fraud": "Fraud prevention",
+    "complaints": "Complaints policy",
+    "archived": "Archived documents",
+    "copyright": "© {year} Optim System Ltd. All rights reserved."
+  },
+  "pages": {
+    "personal": {
+      "title0": "Next-gen",
+      "title1": "finance,",
+      "title2": "made personal"
+    },
+    "business": {
+      "title0": "Neo",
+      "title1": "solution",
+      "title2": "for online",
+      "title3": "payments"
+    },
+    "complaintsPolicy": {
+      "metadata": {
+        "title": "Complaints Policy"
+      }
+    },
+    "cookies": {
+      "metadata": {
+        "title": "Cookies Policy"
+      }
+    },
+    "fraudPrevention": {
+      "metadata": {
+        "title": "Fraud Prevention Policy"
+      }
+    },
+    "privacyPolicy": {
+      "metadata": {
+        "title": "Privacy Policy"
+      }
+    },
+    "termsAndConditions": {
+      "metadata": {
+        "title": "Terms and Conditions"
+      }
+    },
+    "archivedDocs": {
+      "metadata": {
+        "title": "Archived Documents"
+      },
+      "accordions": {
+        "termsConditions": "Terms & conditions",
+        "privacy": "Privacy",
+        "cookies": "Cookies",
+        "fraudPrevention": "Fraud prevention",
+        "complaintsPolicy": "Complaints Policy",
+        "noFiles": "No files"
+      }
+    }
+  },
+  "pageCover": {
+    "launchApp": "Launch WeOpsy"
+  },
+  "dailyFinanceSection": {
+    "title": "Daily finance",
+    "launchApp": "Launch WeOpsy",
+    "features": "Features",
+    "tags": {
+      "wallet": "Wallet",
+      "security": "Security",
+      "comingSoon": "Coming soon..."
+    },
+    "personal": {
+      "everydayWalletMadeSimple": "Everyday wallet made simple",
+      "sendMoneyToFriendsInstantly": "Send money to friends instantly",
+      "qrPayment": "QR Payment"
+    },
+    "business": {
+      "biomentrics": "Biometrics",
+      "availableAcrossEuMarket": "Available across 27+ EU markets",
+      "issueTeamCards": "Issue corporate cards for your team"
+    }
+  },
+  "featuresSection": {
+    "title0": "Spend, save and manage your",
+    "title1": "money",
+    "description": "Spend, save and manage your money.",
+    "features": "Features",
+    "support": {
+      "title": "Support 24/7",
+      "description": "Weopsy online team support"
+    },
+    "globalTransfer": {
+      "title": "Global transfer",
+      "description": "Transfer your money world"
+    }
+  },
+  "pricesSection": {
+    "title": "Prices",
+    "description": "Affordable financial solutions for any personal and business. Find out where your business fits with Opsy below.",
+    "internalPayments": "Internal payments",
+    "inwardSepaPayment": "Inward SEPA payment",
+    "outwardSepaPayment": "Outward SEPA payment",
+    "inwardGbpFasterPayments": "Inward GBP faster payments",
+    "outwardGbpFasterPayments": "Outward GBP faster payments",
+    "maintenanceFee": "Maintance fee",
+    "personal": {
+      "monthPrice": "€40/mo",
+      "title": "No maintance fee",
+      "subtitle": "Individuals",
+      "description": "Get a 360-degree view and full control of your business finances. Send payments, manage funds, and exchange or hold different currencies.",
+      "internalPaymentsPrice": "Free",
+      "inwardSepaPaymentPrice": "Free",
+      "outwardSepaPaymentPrice": "Free",
+      "inwardGbpFasterPaymentsPrice": "Free",
+      "outwardGbpFasterPaymentsPrice": "£ 0,1",
+      "maintenanceFeePrice": "€ 0"
+    },
+    "business": {
+      "monthPrice": "€200/mo",
+      "title": "No maintance fee",
+      "subtitle": "Lower-risk businesses",
+      "description": "Available to lowerrisk businesses that are not based in countries or territories that are listed among our Special Jurisdictions.",
+      "internalPaymentsPrice": "Free",
+      "inwardSepaPaymentPrice": "€ 1",
+      "outwardSepaPaymentPrice": "€ 3",
+      "inwardGbpFasterPaymentsPrice": "£ 1",
+      "outwardGbpFasterPaymentsPrice": "£ 3",
+      "maintenanceFeePrice": "€ 0"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-accent: #4169e1;
+  --color-accent-80: #6886e7;
+  --color-accent-60: #8da2ec;
+  --color-accent-40: #b3bff2;
+  --color-accent-20: #d8ddf7;
+  --color-accent-12: #e5eafb;
+  --color-accent-8: #edf0fc;
+  --color-accent-5: #f3f5fd;
+
+  --color-black: #131315;
+  --color-black-80: #3a3a3d;
+  --color-black-60: #575759;
+  --color-black-40: #757577;
+  --color-black-20: #a1a1a2;
+  --color-black-12: #b7b7b8;
+  --color-black-8: #c4c4c5;
+  --color-black-5: #cbcbcc;
+
+  --color-white: #ffffff;
+  --color-white-80: #cccccc;
+  --color-white-60: #999999;
+  --color-white-40: #666666;
+  --color-white-20: #333333;
+  --color-white-12: #1f1f1f;
+  --color-white-8: #141414;
+  --color-white-5: #0d0d0d;
+
+  --color-secondary: #1f2737;
+  --color-secondary-80: #4a5262;
+  --color-secondary-60: #767d8d;
+  --color-secondary-40: #a1a8b8;
+  --color-secondary-20: #cdd2e3;
+  --color-secondary-12: #e0e3ed;
+  --color-secondary-8: #e8eaf2;
+  --color-secondary-5: #eff0f6;
+
+  --spacing: 4px;
+
+  --radius-2xs: 4px;
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 36px;
+
+  --font-sans: var(--font-inter);
+
+  --text-xs: 14px;
+  --text-sm: 16px;
+  --text-base: 18px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 30px;
+  --text-3xl: 36px;
+  --text-4xl: 48px;
+  --text-5xl: 64px;
+  --text-6xl: 72px;
+  --text-7xl: 96px;
+  --text-7xl--line-height: 112px;
+
+  --text-shadow-xl: 0px 0px 100px rgba(60, 103, 231, 1);
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+    @apply text-black dark:text-white;
+    @apply bg-white dark:bg-black;
+    @apply text-base;
+    @apply transition-colors;
+
+    @apply flex flex-col min-h-dvh;
+  }
+
+  main {
+    @apply flex-grow;
+  }
+}
+
+@utility container {
+  max-width: 1248px;
+  @apply px-[16px];
+}
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}

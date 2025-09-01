@@ -1,0 +1,121 @@
+@reference '../../globals.css';
+
+.docsMarkdown {
+  h1 {
+    @apply text-4xl mb-16 mt-19 font-medium;
+  }
+
+  table {
+    th,
+    td {
+      @apply border border-black/40;
+      @apply px-4 py-2;
+    }
+
+    td,
+    td * {
+      @apply text-sm;
+    }
+
+    th {
+      @apply font-medium;
+    }
+  }
+
+  strong {
+    @apply font-semibold;
+  }
+
+  h2 {
+    @apply text-2xl mb-4 mt-5 font-medium;
+  }
+
+  p {
+    @apply text-base my-2;
+  }
+
+  ul {
+    @apply list-disc list-inside;
+  }
+
+  ol {
+    @apply list-decimal;
+    @apply pl-10;
+  }
+
+  ul p {
+    @apply my-0;
+  }
+
+  ol p {
+    @apply my-0;
+  }
+
+  a {
+    @apply text-accent hover:text-accent/90 transition-colors;
+  }
+
+  :global(.nesting) {
+    @apply pl-2;
+
+    :has(ol, ul) > ul {
+      @apply pl-10;
+    }
+
+    :has(ol, ul) > ol {
+      @apply pl-10;
+    }
+
+    p {
+      @apply my-2;
+    }
+
+    ol {
+      counter-reset: item;
+      @apply my-2;
+    }
+
+    ul {
+      @apply my-2;
+      list-style-type: square;
+    }
+
+    ul > li {
+      @apply mb-2;
+    }
+
+    ol > li {
+      @apply block relative mb-2;
+    }
+
+    ol > li:before {
+      @apply absolute mr-[100%] right-3;
+      content: counters(item, '.');
+      counter-increment: item;
+    }
+
+    ol > li > ol > li > ol > li > ol {
+      list-style-type: lower-alpha;
+    }
+
+    ol > li > ol > li > ol > li > ol > li {
+      @apply list-item;
+    }
+
+    ol > li > ol > li > ol > li > ol > li::before {
+      content: none;
+    }
+  }
+
+  :global(.nesting) > ol > li {
+    @apply relative mb-10 last:mb-0;
+  }
+
+  :global(.nesting) > ol > li::before {
+    content: counters(item, '.') '.';
+    @apply absolute;
+    @apply text-2xl font-medium;
+    @apply mr-[100%];
+    @apply right-3;
+  }
+}

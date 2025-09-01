@@ -1,0 +1,1 @@
+export { ArchivedDocumentsAccordion } from './archived-documents-accordion'; 

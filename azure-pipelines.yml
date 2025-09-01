@@ -1,0 +1,43 @@
+# azure-pipelines.yml
+# Pipeline for svc-sumsub-handler using shared template
+
+# Triggers must be defined in consuming pipeline when using extends
+trigger:
+  tags:
+    include:
+      - 'v*'
+  branches:
+    include:
+      - 'master'
+      - 'stage'
+
+# Variables must be defined in consuming pipeline when using extends
+variables:
+  - group: regestry  # Your existing variable group
+
+# Resources must be defined in consuming pipeline when using extends
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: infrastructure/application-deployment
+      ref: refs/heads/master  # or main, depending on your default branch
+
+# Extend the shared template
+extends:
+  template: pipeline-templates/build.yaml@templates
+  parameters:
+    # Application Configuration
+    imageName: 'weopsy-landing'
+    acrName: 'weopsyglobalneacr'
+    helmRepo: 'helm'
+    
+    # Service Connection (matches your existing connection)
+    azureServiceConnection: 'Optimsystem-dev'
+    
+    # Deployment Configuration  
+    deploymentPipelineName: 'weopsy-landing'  # Update this to match your deployment pipeline name
+    
+    # Build Configuration
+    dockerfilePath: '.'  # Since you're using '.' in docker build
+    buildToken: '$(TOKEN)'  # Your existing TOKEN variable

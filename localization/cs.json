@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "title": "We Opsy",
+    "defaultTitle": "WeOpsy – Multiměnové účty a mezinárodní převody",
+    "description": "Otevřete si multiměnový účet pro osobní nebo firemní použití, posílejte a přijímejte platby po celém světě a spravujte své finance jednoduše. Přidejte se k WeOpsy ještě dnes!",
+    "keywords": "WeOpsy, multiměnový účet, online platby, mezinárodní převody, směna měn, online bankovnictví, firemní bankovnictví, fintech, IBAN účet"
+  },
+  "navigation": {
+    "personal": "Osobní",
+    "business": "Obchodní",
+    "login": "Přihlásit se do WeOpsy",
+    "getApp": "Získat aplikaci",
+    "businessInfo": "Opsy je regulována Úřadem pro finanční regulaci a dohled jako autorizovaná platební instituce od 15.06.2020, referenční číslo firmy 917823, číslo společnosti 10063965, registrována na Baldock Industrial Estate London Road, Office 10, AJS House, Units 11-12, Baldock, England, SG7 6NG, založena 15.03.2016.",
+    "terms": "Podmínky",
+    "privacy": "Ochrana osobních údajů",
+    "cookie": "Soubory cookie",
+    "fraud": "Prevence podvodů",
+    "complaints": "Zásady vyřizování stížností",
+    "archived": "Archivované dokumenty",
+    "copyright": "© {year} Optim System Ltd. Všechna práva vyhrazena."
+  },
+  "pages": {
+    "personal": {
+      "title0": "Financování nové",
+      "title1": "generace,",
+      "title2": "přizpůsobené vám"
+    },
+    "business": {
+      "title0": "Neo",
+      "title1": "řešení",
+      "title2": "pro online",
+      "title3": "platby"
+    },
+    "archivedDocs": {
+      "metadata": {
+        "title": "Archivované dokumenty"
+      },
+      "accordions": {
+        "termsConditions": "Podmínky a podmínky",
+        "privacy": "Ochrana osobních údajů", 
+        "cookies": "Soubory cookie",
+        "fraudPrevention": "Prevence podvodů",
+        "complaintsPolicy": "Zásady vyřizování stížností",
+        "noFiles": "Žádné soubory"
+      }
+    }
+  },
+  "pageCover": {
+    "launchApp": "Spusťte WeOpsy"
+  },
+  "dailyFinanceSection": {
+    "title": "Denní finance",
+    "launchApp": "Spusťte WeOpsy",
+    "features": "Funkce",
+    "tags": {
+      "wallet": "Peněženka",
+      "security": "Zabezpečení",
+      "comingSoon": "Již brzy..."
+    },
+    "personal": {
+      "everydayWalletMadeSimple": "Jednoduchá každodenní peněženka",
+      "sendMoneyToFriendsInstantly": "Pošlete peníze přátelům okamžitě",
+      "qrPayment": "QR platba"
+    },
+    "business": {
+      "biomentrics": "Biometrie",
+      "availableAcrossEuMarket": "Dostupné na více než 27 trzích EU",
+      "issueTeamCards": "Vydávejte firemní karty pro váš tým"
+    }
+  },
+  "featuresSection": {
+    "title0": "Utrácejte, spořte a spravujte své",
+    "title1": "peníze",
+    "description": "Utrácejte, spořte a spravujte své peníze.",
+    "features": "Funkce",
+    "support": {
+      "title": "Podpora 24/7",
+      "description": "Online podpora týmu Weopsy"
+    },
+    "globalTransfer": {
+      "title": "Globální převod",
+      "description": "Převádějte své peníze do celého světa"
+    }
+  },
+  "pricesSection": {
+    "title": "Ceny",
+    "description": "Dostupná finanční řešení pro jakoukoli osobní a firemní potřebu. Zjistěte, kam vaše firma zapadá s Opsy níže.",
+    "internalPayments": "Interní platby",
+    "inwardSepaPayment": "Příchozí SEPA platba",
+    "outwardSepaPayment": "Odchozí SEPA platba",
+    "inwardGbpFasterPayments": "Příchozí GBP rychlé platby",
+    "outwardGbpFasterPayments": "Odchozí GBP rychlé platby",
+    "maintenanceFee": "Poplatek za údržbu",
+    "personal": {
+      "monthPrice": "40 € / měsíc",
+      "title": "Žádný poplatek za údržbu",
+      "subtitle": "Jednotlivci",
+      "description": "Získejte 360stupňový pohled a plnou kontrolu nad financemi vaší firmy. Posílejte platby, spravujte prostředky a vyměňujte nebo držte různé měny.",
+      "internalPaymentsPrice": "Zdarma",
+      "inwardSepaPaymentPrice": "Zdarma",
+      "outwardSepaPaymentPrice": "Zdarma",
+      "inwardGbpFasterPaymentsPrice": "Zdarma",
+      "outwardGbpFasterPaymentsPrice": "£ 0,1",
+      "maintenanceFeePrice": "€ 0"
+    },
+    "business": {
+      "monthPrice": "200 € / měsíc",
+      "title": "Žádný poplatek za údržbu",
+      "subtitle": "Podniky s nižším rizikem",
+      "description": "Dostupné pro podniky s nižším rizikem, které nejsou založeny v zemích nebo územích uvedených mezi našimi zvláštními jurisdikcemi.",
+      "internalPaymentsPrice": "Zdarma",
+      "inwardSepaPaymentPrice": "€ 1",
+      "outwardSepaPaymentPrice": "€ 3",
+      "inwardGbpFasterPaymentsPrice": "£ 1",
+      "outwardGbpFasterPaymentsPrice": "£ 3",
+      "maintenanceFeePrice": "€ 0"
+    }
+  }
+}
