@@ -40,7 +40,7 @@ export function Header(properties: HeaderProperties) {
         </Link>
         <Navigation className="lg:mx-auto" />
         <AnimatePresence initial={false}>
-          <div className="flex items-center justify-end gap-[16px]">
+          <div className="items-center justify-end gap-[16px] hidden lg:flex">
             {showGetApp && (
               <Button
                 as={motion.a}

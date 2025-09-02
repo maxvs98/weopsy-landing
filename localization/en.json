@@ -8,6 +8,9 @@
   "navigation": {
     "personal": "Personal",
     "business": "Business",
+    "cards": "Cards",
+    "cardsPersonal": "Individual card",
+    "cardsBusiness": "Corporate card",
     "login": "Log in to WeOpsy",
     "getApp": "Get the app",
     "businessInfo": "Opsy is regulated by the Financial Conduct Authority as an Authorised Payment Institution since 15.06.2020, Firm Reference 917823, Company number 10063965, registered at Baldock Industrial Estate London Road, Office 10, AJS House, Units 11-12, Baldock, England, SG7 6NG, incorporated on 15.03.2016.",
@@ -30,6 +33,16 @@
       "title1": "solution",
       "title2": "for online",
       "title3": "payments"
+    },
+    "cardsPersonal": {
+      "title0": "Pay smart",
+      "title1": "with",
+      "title2": "virtual cards"
+    },
+    "cardsBusiness": {
+      "title0": "Control",
+      "title1": "business",
+      "title2": "expenses instantly"
     },
     "complaintsPolicy": {
       "metadata": {
@@ -139,6 +152,93 @@
       "inwardGbpFasterPaymentsPrice": "£ 1",
       "outwardGbpFasterPaymentsPrice": "£ 3",
       "maintenanceFeePrice": "€ 0"
+    }
+  },
+  "cardsFeaturesSection": {
+    "personal": {
+      "title": "Why choose WeOpsy virtual cards?",
+      "subtitle": "Simple, secure, and designed to give you full control over your money",
+      "card1": {
+        "title": "Instant issuance",
+        "description": "Get your virtual card in seconds, no paperwork or waiting"
+      },
+      "card2": {
+        "title": "Full control",
+        "description": "Freeze or delete your card anytime in just one tap"
+      },
+      "card3": {
+        "title": "Secure payments",
+        "description": "Advanced protection keeps your online and offline payments safe"
+      },
+      "card4": {
+        "title": "No hidden fees",
+        "description": "Transparent conditions with no hidden charges or surprises"
+      }
+    },
+    "business": {
+      "title": "Why companies trust WeOpsy virtual cards",
+      "subtitle": "Fast, safe, and designed for smarter corporate spending",
+      "card1": {
+        "title": "Instant issuance",
+        "description": "Get your virtual card in seconds, no paperwork or waiting"
+      },
+      "card2": {
+        "title": "Expense transparency",
+        "description": "Gain complete transparency over company spending. Set limits, track every transaction in real time, and keep employee expenses under control"
+      },
+      "card3": {
+        "title": "Secure payments",
+        "description": "Enterprise-grade security protects every company transaction — online and offline. Control spending across teams with advanced fraud protection and unique card details"
+      },
+      "card4": {
+        "title": "No hidden fees",
+        "description": "Transparent conditions with no hidden charges or surprises"
+      }
+    }
+  },
+  "howItWorksSection": {
+    "personal": {
+      "title": "A virtual card that lets you pay online, in-store, and manage your money with full security and instant control",
+      "step1": {
+        "title": "Sign in",
+        "description": "Log in to the WeOpsy app with your account"
+      },
+      "step2": {
+        "title": "Verify identity",
+        "description": "Complete quick KYC verification to keep your account secure"
+      },
+      "step3": {
+        "title": "Get your card",
+        "description": "Instantly receive your virtual card and start using it right away"
+      }
+    },
+    "business": {
+      "topBlock": {
+        "title": "Co-branded cards for your business",
+        "description": "Showcase your brand on every payment. WeOpsy offers customizable virtual cards with your company logo and design. Perfect for employee perks, client rewards, or partner programs.",
+        "button": "Contact us"
+      },
+      "title": "A virtual card built for companies to manage payments, subscriptions, and team spending with speed and confidence",
+      "step1": {
+        "title": "Sign in",
+        "description": "Log in to the WeOpsy app with your account"
+      },
+      "step2": {
+        "title": "Verify identity",
+        "description": "Complete a quick KYCto secure your business account and enable issuing virtual cards without delays"
+      },
+      "step3": {
+        "title": "Get your card",
+        "description": "Instantly receive your virtual card and start using it right away"
+      }
+    }
+  },
+  "mastercardSection": {
+    "personal": {
+      "title": "Unlock Multi-Currency Spending with the Mastercard Debit Card"
+    },
+    "business": {
+      "title": "Unlock global multi-currency payments with the WeOpsy Business Mastercard"
     }
   }
 }

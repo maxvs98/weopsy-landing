@@ -8,6 +8,9 @@
   "navigation": {
     "personal": "Osobní",
     "business": "Obchodní",
+    "cards": "Karty",
+    "cardsPersonal": "Osobní karta",
+    "cardsBusiness": "Firemní karta",
     "login": "Přihlásit se do WeOpsy",
     "getApp": "Získat aplikaci",
     "businessInfo": "Opsy je regulována Úřadem pro finanční regulaci a dohled jako autorizovaná platební instituce od 15.06.2020, referenční číslo firmy 917823, číslo společnosti 10063965, registrována na Baldock Industrial Estate London Road, Office 10, AJS House, Units 11-12, Baldock, England, SG7 6NG, založena 15.03.2016.",
@@ -30,6 +33,16 @@
       "title1": "řešení",
       "title2": "pro online",
       "title3": "platby"
+    },
+    "cardsPersonal": {
+      "title0": "Plať chytře",
+      "title1": "s",
+      "title2": "virtuálními kartami"
+    },
+    "cardsBusiness": {
+      "title0": "Měj pod kontrolou",
+      "title1": "firemní",
+      "title2": "výdaje okamžitě"
     },
     "archivedDocs": {
       "metadata": {
@@ -114,6 +127,93 @@
       "inwardGbpFasterPaymentsPrice": "£ 1",
       "outwardGbpFasterPaymentsPrice": "£ 3",
       "maintenanceFeePrice": "€ 0"
+    }
+  },
+  "cardsFeaturesSection": {
+    "personal": {
+      "title": "Proč si vybrat virtuální karty WeOpsy?",
+      "subtitle": "Jednoduché, bezpečné a navržené tak, abyste měli plnou kontrolu nad svými penězi",
+      "card1": {
+        "title": "Okamžité vydání",
+        "description": "Získejte svou virtuální kartu během několika sekund, bez papírování a čekání"
+      },
+      "card2": {
+        "title": "Plná kontrola",
+        "description": "Zmrazte nebo smažte svou kartu kdykoliv jediným klepnutím"
+      },
+      "card3": {
+        "title": "Bezpečné platby",
+        "description": "Pokročilá ochrana zajišťuje bezpečnost vašich online i offline plateb"
+      },
+      "card4": {
+        "title": "Žádné skryté poplatky",
+        "description": "Transparentní podmínky bez skrytých poplatků nebo nepříjemných překvapení"
+      }
+    },
+    "business": {
+      "title": "Proč společnosti důvěřují virtuálním kartám WeOpsy",
+      "subtitle": "Rychlé, bezpečné a navržené pro chytřejší firemní výdaje",
+      "card1": {
+        "title": "Okamžité vydání",
+        "description": "Získejte svou virtuální kartu během několika sekund, bez papírování a čekání"
+      },
+      "card2": {
+        "title": "Transparentnost výdajů",
+        "description": "Získejte úplnou transparentnost firemních výdajů. Nastavte limity, sledujte každou transakci v reálném čase a mějte výdaje zaměstnanců pod kontrolou"
+      },
+      "card3": {
+        "title": "Bezpečné platby",
+        "description": "Bezpečnost na podnikové úrovni chrání každou firemní transakci — online i offline. Řiďte výdaje napříč týmy pomocí pokročilé ochrany proti podvodům a unikátních údajů karty"
+      },
+      "card4": {
+        "title": "Žádné skryté poplatky",
+        "description": "Transparentní podmínky bez skrytých poplatků nebo nepříjemných překvapení"
+      }
+    }
+  },
+  "howItWorksSection": {
+    "personal": {
+      "title": "Virtuální karta, se kterou můžete platit online, v obchodech a spravovat své finance s plnou bezpečností a okamžitou kontrolou",
+      "step1": {
+        "title": "Přihlaste se",
+        "description": "Přihlaste se do aplikace WeOpsy se svým účtem"
+      },
+      "step2": {
+        "title": "Ověřte identitu",
+        "description": "Rychle dokončete KYC ověření, aby byl váš účet bezpečný"
+      },
+      "step3": {
+        "title": "Získejte kartu",
+        "description": "Okamžitě obdržíte svou virtuální kartu a můžete ji začít hned používat"
+      }
+    },
+    "business": {
+      "topBlock": {
+        "title": "Karty na míru pro vaše podnikání",
+        "description": "Prezentujte svou značku při každé platbě. WeOpsy nabízí přizpůsobitelné virtuální karty s logem a designem vaší společnosti. Ideální pro zaměstnanecké benefity, odměny klientům nebo partnerské programy.",
+        "button": "Kontaktujte nás"
+      },
+      "title": "Virtuální karta vytvořená pro firmy, aby mohly spravovat platby, předplatná a týmové výdaje rychle a s jistotou",
+      "step1": {
+        "title": "Přihlaste se",
+        "description": "Přihlaste se do aplikace WeOpsy se svým účtem"
+      },
+      "step2": {
+        "title": "Ověřte identitu",
+        "description": "Rychle dokončete KYC, abyste zabezpečili firemní účet a mohli bez prodlení vydávat virtuální karty"
+      },
+      "step3": {
+        "title": "Získejte kartu",
+        "description": "Okamžitě obdržíte svou virtuální kartu a můžete ji začít hned používat"
+      }
+    }
+  },
+  "mastercardSection": {
+    "personal": {
+      "title": "Odemkněte víceměnové utrácení s debetní kartou Mastercard"
+    },
+    "business": {
+      "title": "Odemkněte globální víceměnové platby s WeOpsy Business Mastercard"
     }
   }
 }
