@@ -32,7 +32,7 @@ function NavLink({ href, children, className, active, disabled }: NavLinkPropert
     <Link
       href={href!}
       className={twMerge(
-        'transition-colors px-4 sm:px-8 lg:px-12 h-full flex items-center justify-center text-xs font-medium text-black/70 dark:text-white/70 hover:text-black dark:hover:text-white',
+        'transition-colors px-3 sm:px-8 lg:px-12 h-full flex items-center justify-center text-xs font-medium text-black/70 dark:text-white/70 hover:text-black dark:hover:text-white',
         active && 'text-black dark:text-white',
         className
       )}
@@ -105,7 +105,7 @@ export function Navigation({ className, linkClassName }: NavigationProperties) {
 
   return (
     <nav className={twMerge('h-full', className)}>
-      <ul className="h-full flex justify-end items-center">
+      <ul className="h-full flex justify-end items-center px-3 sm:px-0">
         {links.map(({ href, label, active, disabled }) => (
           <li key={label} className="h-full shrink-0">
             <NavLink href={href} className={linkClassName} active={active} disabled={disabled}>

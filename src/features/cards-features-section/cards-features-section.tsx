@@ -39,7 +39,7 @@ export function CardsFeaturesSection(properties: FeaturesSectionProperties) {
   );
 
   return (
-    <section className={twMerge('container mx-auto pt-16 pb-8', className)}>
+    <section className={twMerge('container mx-auto pt-16 pb-19', className)}>
       <div className="text-3xl lg:text-4xl font-medium">{tFeaturesSection('title')}</div>
       <div className="text-sm font-medium mt-4">{tFeaturesSection('subtitle')}</div>
 

@@ -78,7 +78,9 @@ export function HowItWorksSection(properties: HowItWorksSectionProperties) {
                 height={189}
                 className="h-auto block sm:hidden mt-5 mx-auto"
               />
-              <Button className="w-full sm:w-auto mt-5">{t("topBlock.button")}</Button>
+              <Button as={"a"} href="mailto:info@weopsy.com" className="w-full sm:w-max mt-5">
+                {t("topBlock.button")}
+              </Button>
             </div>
             <Image
               alt=""

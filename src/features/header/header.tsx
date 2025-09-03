@@ -35,7 +35,7 @@ export function Header(properties: HeaderProperties) {
       )}
     >
       <div className="container mx-auto h-full grid grid-cols-2 lg:grid-cols-3 items-center">
-        <Link href="/">
+        <Link className="w-max" href="/">
           <Logo />
         </Link>
         <Navigation className="lg:mx-auto" />
